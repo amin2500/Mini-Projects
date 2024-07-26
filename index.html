@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./index.css" />
+    
+  </head>
+  <body>
+   
+   <p class="Youtube-title">Youtube Subscribe Button</p>
+   <button class="js-Youtubebutton Youtubebutton" onclick="SubscribeButton()">Subscribe</button>
+<!--Amazon-->
+<p class="Amazon">Amazon Shipping Calculator</p>
+<p class="Amazon">Orders under $40 = +$10 shipping.</p>
+<p class="Amazon">Orders over $40 = FREE shipping.</p>
+<input type="text" class="js-input" placeholder="Cost of Orders" onkeydown="enter()">
+<button class="js-AmazonButton" onclick="Amazon()">Calculate</button>
+<p class="js-AmazonDisplay"></p>
+<p class="js-AmazonDisplayError"></p>
+<!--Gaming Button -->
+<button class="js-gamingbbutton gamingbutton" onclick="gaming()">Gaming</button>
+<!-- The three Buttons -->
+<div>
+<button class="js-Button1 threeButtons" onclick="threeButton(`.js-Button1`)">Gaming</button>
+<button class="js-Button2 threeButtons" onclick="threeButton(`.js-Button2`)">Music</button>
+<button class="js-Button3 threeButtons" onclick="threeButton(`.js-Button3`)">Tech</button>
+</div>
+<script src="./index.js"></script>
+  </body>
+</html>
+ 
